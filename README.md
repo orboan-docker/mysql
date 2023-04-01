@@ -1,4 +1,4 @@
-# postgres
+# mysql
 
 To install:
 
