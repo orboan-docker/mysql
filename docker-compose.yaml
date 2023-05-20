@@ -7,7 +7,7 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: "admin"
       MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
-      NB_USER: "${NB_USER}"
+      NB_USER: "${USER}"
     volumes:
        - data:/var/lib/mysql
        - /var/run/mysqld:/var/run/mysqld
